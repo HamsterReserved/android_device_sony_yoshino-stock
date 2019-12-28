@@ -31,6 +31,9 @@ BOARD_VENDOR := sony
 # we are too big to fit in
 PRODUCT_SKIP_FINGERPRINT_FROM_FILE := true
 
+# Allow overriding recipes
+BUILD_BROKEN_DUP_RULES := true
+
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
 
