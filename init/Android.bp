@@ -1,0 +1,9 @@
+cc_library_static {
+    name: "libinit_sony_msm8998",
+    recovery_available: true,
+    static_libs: ["libbase"],
+    include_dirs: ["system/core/init"],
+    srcs: [
+        "init_sony_msm8998.cpp",
+    ]
+}
